@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Shared-css */
+
+.font-work-sans {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.btn {
+    padding: 18px 35px;
+    background-color: #F15B22;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Main-Css */
+
+
+#header {
+  width: 100%;
+  height: 808px; /* fixed height */
+  background-image: url(../images/banner/banner1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.benner-text {
+    max-width: 525px;
+    /* padding-right: 230px; */
+    text-align: right;
+}
+
+.benner-text h2 {
+    font-size: 65px;
+    font-weight: bold;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.benner-text p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 32px;
+}
