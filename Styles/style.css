@@ -39,7 +39,6 @@
 
 .benner-text {
     max-width: 525px;
-    /* padding-right: 230px; */
     text-align: right;
 }
 
@@ -56,3 +55,74 @@
     color: #444343;
     margin-bottom: 32px;
 }
+
+
+#about {
+    width: 71%;
+    max-width: 1140px;
+    margin: 130px auto;    
+}
+
+.about-container {
+    display: flex;
+    gap: 87px;
+    align-items: center;
+}
+
+.about-container .about-text h3 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #151414;
+    margin-bottom: 24px;
+    
+}
+
+.about-container .about-text p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 16px;
+    
+}
+
+li {
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    list-style: none;
+}
+
+li::before {
+    content: '✔';
+    color: #16D887;
+    margin-right: 10px;
+}
+
+
+
+
+
+#plan {
+    width: 71%;
+    max-width: 1140px;
+    margin: 130px auto;
+}
+
+.plan-container {
+    text-align: center;
+    
+}
+
+.plan-Heading h3 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #151414;
+    margin-bottom: 55px;
+}
+
+.plan-card{
+    display: flex;
+    gap: 86px;
+    justify-content: center;
+}
+
