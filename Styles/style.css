@@ -19,6 +19,7 @@
     color: white;
     font-size: 20px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 /* Main-Css */
@@ -56,6 +57,7 @@
     margin-bottom: 32px;
 }
 
+/* =============about============ */
 
 #about {
     width: 71%;
@@ -99,7 +101,7 @@ li::before {
 }
 
 
-
+/* =============plan============ */
 
 
 #plan {
@@ -126,3 +128,144 @@ li::before {
     justify-content: center;
 }
 
+
+
+/* =============image============ */
+
+#image {
+    width: 71%;
+    max-width: 1140px;
+    margin: 130px auto;
+}
+
+
+.bg-img {
+    position: relative;
+}
+
+
+.image-container {
+    background: url(../images/gradient3.png), url(../images/watch.png);
+    height: 300px;
+    border: none;
+    border-radius: 8px;
+}
+
+.image-text {
+    padding-top: 59px;
+    padding-left: 64px;
+    max-width: 456px;
+}
+
+.image-text h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffff;
+    margin-bottom: 24px;
+}
+
+
+/* =============footer============ */
+
+
+
+footer {
+    background-color: black;
+}
+
+
+.foter-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 130px auto 0;
+    padding: 130px 0;
+    
+}
+
+.foter-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 331px;
+    align-items: center;
+}
+
+.footer-text {
+    max-width: 458px;
+}
+
+.footer-text h3 {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    
+}
+
+
+.footer-p {
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.footer-email {
+    color: #ffff;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.footer-number {
+    color: #ffff;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+
+
+.footer-icon img {
+    margin-right: 18px;
+}
+
+form {
+    margin-bottom: 243px;
+}
+
+form h2{
+    font-size: 25px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 31px;
+}
+
+form {
+    margin-bottom: 243px;
+}
+
+
+form input[type="text"] {
+    border: 1px solid white;
+    background-color: #151414;
+    border-radius: 8px;
+    width: 325px;
+    padding: 18px 31px;
+    margin-bottom: 16px;
+    
+}
+
+input::placeholder {
+    color: white;
+}
+
+
+.submit {
+    padding: 18px 35px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
